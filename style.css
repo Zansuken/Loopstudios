@@ -83,3 +83,28 @@ a:hover{
     padding-top: 40px;
     padding-bottom: 0;
 }
+.gallery_header{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 163px;
+    margin-top: 150px;
+}
+.gallery_button{
+    position: relative;
+    width: 130px;
+    height: max-content;
+    top: 25px;
+    left: -325px;
+    border: solid white 2px;
+    padding: 20px 30px 20px 30px;
+    margin-bottom: 60px;
+    background-color: black;
+    font-family: 'Alata', sans-serif;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 100;
+    letter-spacing: 0.2em;
+}
