@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+body{
+    width: 1440px;
+    margin: 0 auto 0 auto;
+    padding: 0 0 0 0;
+}
+.header{
+    display: flex;
+    background-image: url(loopstudios-landing-page-main/loopstudios-landing-page-main/images/desktop/image-hero.jpg);
+    height: 600px;
+    width: 1440px;
+    padding-top: 30px;
+}
+h1, nav, .slogan{
+    font-family: 'Alata', sans-serif;
+    color: white;
+}
+.slogan p{
+    margin: 0;
+    padding: 15px;
+}
+.slogan{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 70px;
+    position: relative;
+    top: 250px;
+    left: -169px;
+    height: 230px;
+    border: solid 2px white;
+}
+.logo{
+    margin-left: 163px;
+}
+nav{
+    margin-top: 35px;
+    position: absolute;
+    right: 310px;
+}
+nav a{
+    margin-right: 35px;
+    color: white;
+    text-decoration: none;
+}
