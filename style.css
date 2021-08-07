@@ -5,6 +5,9 @@ body{
     margin: 0 auto 0 auto;
     padding: 0 0 0 0;
 }
+body::-webkit-scrollbar{
+    display: none;
+}
 .header{
     display: flex;
     background-image: url(loopstudios-landing-page-main/loopstudios-landing-page-main/images/desktop/image-hero.jpg);
@@ -18,13 +21,13 @@ h1, nav, .slogan{
 }
 h2{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 2.4em;
+    font-size: 2.7em;
     font-weight: 500;
     text-transform: uppercase;
 }
 .description p{
     font-family: 'Alata', sans-serif;
-    font-size: 0.7em;
+    font-size: 0.9em;
     color: rgb(141, 141, 141);
     line-height: 1.8em;
 }
@@ -62,6 +65,8 @@ a:hover{
     position: relative;
     margin-left: 163px;
     margin-top: 130px;
+    width: 800px;
+    height: 500px;
 }
 .description_block{
     display: flex;
@@ -69,12 +74,12 @@ a:hover{
 }
 .description{
     background-color: white;
-    height: fit-content;
-    width: max-content;
+    height: 280px;
+    width: 450px;
     position: relative;
-    left: -130px;
-    margin-top: 367px;
-    padding-left: 80px;
-    padding-top: 60px;
+    left: -150px;
+    margin-top: 310px;
+    padding-left: 100px;
+    padding-top: 40px;
     padding-bottom: 0;
 }
