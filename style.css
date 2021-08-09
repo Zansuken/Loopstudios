@@ -30,7 +30,8 @@ h3{
     font-size: 2.3em;
     font-weight: 500;
     text-transform: uppercase;
-    color: white;
+    color: rgba(255, 255, 255, 0.767);
+    position: absolute;
 }
 .description p{
     font-family: 'Alata', sans-serif;
@@ -65,7 +66,7 @@ nav a{
     text-decoration: none;
     box-sizing: border-box;
 }
-a:hover{
+nav a:hover{
     border-bottom: solid 2px white;
 }
 .description_block img{
@@ -154,4 +155,100 @@ a:hover{
 .img_8{
     grid-column: 4;
     grid-row: 2;
+}
+.title_img_1{
+    grid-column: 1;
+    grid-row: 1;
+    position: absolute;
+    padding-left: 40px;
+    padding-top: 339px;
+    padding-right: 95px;
+    padding-bottom: 36px;
+    margin-bottom: 0;
+    margin-top: 0;
+    background: linear-gradient(to bottom, transparent 47%, black);
+}
+.title_img_2{
+    grid-column: 2;
+    grid-row: 1;
+    position: absolute;
+    padding-left: 40px;
+    padding-top: 339px;
+    padding-right: 65px;
+    padding-bottom: 36px;
+    margin-bottom: 0;
+    margin-top: 0;
+    background: linear-gradient(to bottom, transparent 47%, black);
+}
+.title_img_3{
+    grid-column: 3;
+    grid-row: 1;
+    position: absolute;
+    padding-left: 40px;
+    padding-top: 339px;
+    padding-right: 52px;
+    padding-bottom: 36px;
+    margin-bottom: 0;
+    margin-top: 0;
+    background: linear-gradient(to bottom, transparent 47%, black);
+}
+.title_img_4{
+    grid-column: 4;
+    grid-row: 1;
+    position: absolute;
+    padding-left: 40px;
+    padding-top: 339px;
+    padding-right: 129px;
+    padding-bottom: 36px;
+    margin-bottom: 0;
+    margin-top: 0;
+    background: linear-gradient(to bottom, transparent 47%, black);
+}
+.title_img_5{
+    grid-column: 1;
+    grid-row: 2;
+    position: absolute;
+    padding-left: 40px;
+    padding-top: 339px;
+    padding-right: 29px;
+    padding-bottom: 36px;
+    margin-bottom: 0;
+    margin-top: 0;
+    background: linear-gradient(to bottom, transparent 47%, black);
+}
+.title_img_6{
+    grid-column: 2;
+    grid-row: 2;
+    position: absolute;
+    padding-left: 40px;
+    padding-top: 339px;
+    padding-right: 37px;
+    padding-bottom: 36px;
+    margin-bottom: 0;
+    margin-top: 0;
+    background: linear-gradient(to bottom, transparent 47%, black);
+}
+.title_img_7{
+    grid-column: 3;
+    grid-row: 2;
+    position: absolute;
+    padding-left: 40px;
+    padding-top: 339px;
+    padding-right: 23px;
+    padding-bottom: 36px;
+    margin-bottom: 0;
+    margin-top: 0;
+    background: linear-gradient(to bottom, transparent 47%, black);
+}
+.title_img_8{
+    grid-column: 4;
+    grid-row: 2;
+    position: absolute;
+    padding-left: 40px;
+    padding-top: 339px;
+    padding-right: 65px;
+    padding-bottom: 36px;
+    margin-bottom: 0;
+    margin-top: 0;
+    background: linear-gradient(to bottom, transparent 47%, black);
 }
