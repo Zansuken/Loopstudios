@@ -279,3 +279,6 @@ nav a:hover{
     white-space: nowrap;
     background: linear-gradient(to bottom, transparent 47%, black);
 }
+.gallery a:hover{
+    filter: opacity(0.2);
+}
