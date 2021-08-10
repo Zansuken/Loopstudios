@@ -119,42 +119,61 @@ nav a:hover{
 .gallery{
     position: relative;
     left: 163px;
-    width: 1113px;
+    width: 0px;
     display: grid;
     grid-gap: 27px;
     
 }
-.img_1{
+.gallery img{
+    background: linear-gradient(to bottom, transparent 47%, black);
+}
+.div_img_1{
     grid-column: 1;
     grid-row: 1;
+    width: 256px;
+    height: 450px;
 }
-.img_2{
+.div_img_2{
     grid-column: 2;
     grid-row: 1;
+    width: 256px;
+    height: 450px;
 }
-.img_3{
+.div_img_3{
     grid-column: 3;
     grid-row: 1;
+    width: 256px;
+    height: 450px;
 }
-.img_4{
+.div_img_4{
     grid-column: 4;
     grid-row: 1;
+    width: 256px;
+    height: 450px;
 }
-.img_5{
+.div_img_5{
     grid-column: 1;
     grid-row: 2;
+    width: 256px;
+    height: 450px;
 }
-.img_6{
+.div_img_6{
     grid-column: 2;
     grid-row: 2;
+    width: 256px;
+    height: 450px;
 }
-.img_7{
+.div_img_7{
     grid-column: 3;
     grid-row: 2;
+    width: 256px;
+    height: 450px;
 }
-.img_8{
+.div_img_8{
     grid-column: 4;
     grid-row: 2;
+    width: 256px;
+    height: 450px;
 }
 .title_img_1{
     grid-column: 1;
@@ -166,6 +185,7 @@ nav a:hover{
     padding-bottom: 36px;
     margin-bottom: 0;
     margin-top: 0;
+    white-space: nowrap;
     background: linear-gradient(to bottom, transparent 47%, black);
 }
 .title_img_2{
@@ -178,6 +198,7 @@ nav a:hover{
     padding-bottom: 36px;
     margin-bottom: 0;
     margin-top: 0;
+    white-space: nowrap;
     background: linear-gradient(to bottom, transparent 47%, black);
 }
 .title_img_3{
@@ -190,6 +211,7 @@ nav a:hover{
     padding-bottom: 36px;
     margin-bottom: 0;
     margin-top: 0;
+    white-space: nowrap;
     background: linear-gradient(to bottom, transparent 47%, black);
 }
 .title_img_4{
@@ -202,6 +224,7 @@ nav a:hover{
     padding-bottom: 36px;
     margin-bottom: 0;
     margin-top: 0;
+    white-space: nowrap;
     background: linear-gradient(to bottom, transparent 47%, black);
 }
 .title_img_5{
@@ -214,6 +237,7 @@ nav a:hover{
     padding-bottom: 36px;
     margin-bottom: 0;
     margin-top: 0;
+    white-space: nowrap;
     background: linear-gradient(to bottom, transparent 47%, black);
 }
 .title_img_6{
@@ -226,6 +250,7 @@ nav a:hover{
     padding-bottom: 36px;
     margin-bottom: 0;
     margin-top: 0;
+    white-space: nowrap;
     background: linear-gradient(to bottom, transparent 47%, black);
 }
 .title_img_7{
@@ -238,6 +263,7 @@ nav a:hover{
     padding-bottom: 36px;
     margin-bottom: 0;
     margin-top: 0;
+    white-space: nowrap;
     background: linear-gradient(to bottom, transparent 47%, black);
 }
 .title_img_8{
@@ -250,5 +276,6 @@ nav a:hover{
     padding-bottom: 36px;
     margin-bottom: 0;
     margin-top: 0;
+    white-space: nowrap;
     background: linear-gradient(to bottom, transparent 47%, black);
 }
