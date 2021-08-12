@@ -19,11 +19,25 @@ header {
     justify-content: space-between;
 }
 
+.icon{
+	display: none;
+}
 h1,
 nav,
 .slogan {
 	font-family: 'Alata', sans-serif;
 	color: white;
+	font-size: 23px;
+}
+nav{
+	font-family: 'Alata', sans-serif;
+	color: white;
+	font-size: 20px;
+
+}
+.topnav h1{
+	margin-top: 0;
+	display: none;
 }
 
 h2 {
@@ -50,6 +64,10 @@ h4 {
     letter-spacing: 0.1em;
     font-weight: normal;
 }
+
+.burger_button{
+	display: none;
+}
 .description p {
 	font-family: 'Alata', sans-serif;
 	font-size: 0.9em;
@@ -70,6 +88,7 @@ h4 {
 
 .nav_bar{
 	margin-left: 163px;
+	padding-top: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -221,4 +240,252 @@ footer nav a{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+}
+
+/* For mobile phones: ------------------------------------------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 1057px) {
+	
+	.description_block{
+		display: flex;
+		margin-top: 150px;
+		flex-wrap: wrap;
+		
+	}
+	.description_block img {
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 100%;
+	}
+
+	.description{
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0 0 0 0;
+		text-align: center;
+	}
+	.topnav h1{
+		margin-top: 0;
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width: 875px) {
+	.mobile-container {
+		max-width: 875px;
+		height: 20px;
+		background-color: none;
+		color: white;
+		border-radius: 10px;
+	  }
+	  nav{
+		  display: none;
+	  }
+	  
+	  .topnav {
+		background-color: black;
+		position: relative;
+		height: 0px;
+	  }
+	  
+	  .topnav #myLinks {
+		display: none;
+	  }
+	  .topnav h1{
+		margin-top: 0;
+		display: block;
+	}
+
+	  .topnav a h1{
+		  text-transform: lowercase;
+		  margin-top: 36px;
+		  margin-left: 24px;
+		  font-size: 23px;
+	  }
+	  .topnav a {
+		color: white;
+		padding: 14px 16px;
+		text-decoration: none;
+		text-transform: uppercase;
+		background-color: transparent;
+		font-size: 30px;
+		display: flex;
+	  }
+	  #myLinks h1{
+		  margin-left: 40px;
+		  margin-top: 60px;
+		  font-size: 23px;
+	  }
+	  #myLinks li{
+		  list-style-type: none;
+		  font-size: 20px;
+	  }
+	  #myLinks ul{
+		margin-left: -20px;
+		margin-top: 100px;
+	  }
+	  #myLinks{
+		  text-decoration: none;
+		  background-color: black;
+		  width: 374px;
+		  height: 640px;
+		  position: absolute;
+		  top: -10px;
+		  z-index: 1;
+		  vertical-align: baseline;
+		  font-family: 'Josefin Sans', sans-serif;
+
+	  }
+	  #myLinks a:hover{
+		  text-decoration: underline white 1px;
+	  }
+	  .topnav a.icon {
+		background: none;
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 12px;
+		z-index: 1;
+	  }
+	  
+	  .active {
+		background-color: black;
+		color: white;
+	  }
+	  .nav_bar h1{
+		  display: none;
+	  }
+	  .icon{
+		  margin-top: 25px;
+		  margin-right: 10px;
+	  }
+}
+
+@media only screen and (max-width: 700px) {
+
+	.description_block{
+		margin-top: 100px;
+		max-width: 700px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.description_block img{
+		display: flex;
+		min-width: 335px;
+		
+
+	}
+
+	
+	.description br{
+		display: none;
+	}
+	
+}
+
+@media only screen and (max-width: 375px) {
+
+	header{
+		background: no-repeat url(./loopstudios-landing-page-main/loopstudios-landing-page-main/images/mobile/image-hero.jpg);
+		background-size: cover;
+	}
+	.nav_bar{
+		margin-left: 20px;
+	}
+	.slogan{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.slogan p{
+		margin-left: 0;
+		margin-top: 228px;
+		margin-right: 0;
+		font-size: 39px;
+		padding: 30px;
+	}
+	nav{
+		display: none;
+	}
+	.mobile-container {
+		max-width: 374px;
+		background-color: none;
+		color: white;
+		border-radius: 10px;
+	  }
+	  
+	  .topnav {
+		background-color: black;
+		position: relative;
+		height: 0px;
+	  }
+	  
+	  .topnav #myLinks {
+		display: none;
+	  }
+	  .topnav a h1{
+		  text-transform: lowercase;
+		  margin-top: 36px;
+		  margin-left: 24px;
+		  font-size: 23px;
+	  }
+	  .topnav a {
+		color: white;
+		padding: 14px 16px;
+		text-decoration: none;
+		text-transform: uppercase;
+		background-color: transparent;
+		font-size: 30px;
+		display: flex;
+	  }
+	  #myLinks h1{
+		  margin-left: 40px;
+		  margin-top: 60px;
+		  font-size: 23px;
+	  }
+	  #myLinks li{
+		  list-style-type: none;
+		  font-size: 20px;
+	  }
+	  #myLinks ul{
+		margin-left: -20px;
+		margin-top: 100px;
+	  }
+	  #myLinks{
+		  text-decoration: none;
+		  background-color: black;
+		  width: 374px;
+		  height: 640px;
+		  position: absolute;
+		  top: -10px;
+		  z-index: 1;
+		  vertical-align: baseline;
+		  font-family: 'Josefin Sans', sans-serif;
+
+	  }
+	  #myLinks a:hover{
+		  text-decoration: underline white 1px;
+	  }
+	  .topnav a.icon {
+		background: none;
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 12px;
+		z-index: 1;
+	  }
+	  
+	  .active {
+		background-color: black;
+		color: white;
+	  }
+	  .nav_bar h1{
+		  display: none;
+	  }
+	  .icon{
+		  margin-top: 25px;
+		  margin-right: 10px;
+	  }
 }
