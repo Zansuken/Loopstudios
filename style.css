@@ -540,4 +540,66 @@ footer nav a{
 		  margin-top: 25px;
 		  margin-right: 10px;
 	  }
+	  .gallery{
+		  display: none;
+	  }
+	  .gallery_button{
+		  display: none;
+	  }
+	  .gallery_header{
+		  width: 375px;
+		  margin-left: 0px;
+		  margin-right: 20px;
+		  margin-bottom: 20px;
+		  text-align: center;
+		  font-size: 12px;
+	  }
+	  h2{
+		  width: 375px;
+	  }
+	  .mobile_gallery{
+		display: grid;
+		grid-gap: 27px;
+		grid: auto / repeat(1, 1fr);
+		margin-left: 20px;
+		margin-right: 20px;
+	  }
+	  .mobile_gallery img{
+		width: 335px;
+	  }
+	  .mobile_gallery h3 {
+		position: absolute;
+		left: 30px;
+		bottom: -5px;
+		font-size: 25px;
+	}
+	.mobile_gallery a {
+		position: relative;
+	}
+	
+	.mobile_gallery img {
+		transition: opacity .3s ease;
+		object-fit: cover;
+		object-position: center;
+		height: 100%;
+		width: 100%;
+	}
+	
+	.mobile_gallery .background {
+		transition: opacity .3s ease;
+		background: linear-gradient(to bottom, transparent 30%, black);
+		position: absolute;
+		inset: 0;
+	}
+	.mobile_gallery a:hover img {
+		opacity: .3;
+	}
+	
+	.mobile_gallery a:hover h3 {
+		color: black;
+	}
+	
+	.mobile_gallery a:hover .background {
+		background: transparent;
+	}
 }
