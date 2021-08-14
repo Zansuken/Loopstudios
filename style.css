@@ -6,43 +6,41 @@ body {
 	padding: 0 0 0 0;
 }
 
-::-webkit-scrollbar-track
-{
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 	border-radius: 10px;
 	background-color: #F5F5F5;
 }
 
-::-webkit-scrollbar
-{
+::-webkit-scrollbar {
 	width: 12px;
 	background-color: #F5F5F5;
 }
 
-::-webkit-scrollbar-thumb
-{
+::-webkit-scrollbar-thumb {
 	border-radius: 10px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
 	background-color: rgba(0, 0, 0, 0.767);
 }
 
-#myLinks{
+#myLinks {
 	display: none;
 }
 
 
 header {
-    background-size: cover;
+	background-size: cover;
 	background-image: url(loopstudios-landing-page-main/loopstudios-landing-page-main/images/desktop/image-hero.jpg);
-    background-repeat: no-repeat;
-    height: 630px;
+	background-repeat: no-repeat;
+	height: 630px;
 	box-sizing: border-box;
-    justify-content: space-between;
+	justify-content: space-between;
 }
 
-.icon{
+.icon {
 	display: none;
 }
+
 h1,
 nav,
 .slogan {
@@ -50,13 +48,15 @@ nav,
 	color: white;
 	font-size: 23px;
 }
-nav{
+
+nav {
 	font-family: 'Alata', sans-serif;
 	color: white;
 	font-size: 20px;
 
 }
-.topnav h1{
+
+.topnav h1 {
 	margin-top: 0;
 	display: none;
 }
@@ -66,7 +66,7 @@ h2 {
 	font-size: 2.7em;
 	font-weight: 500;
 	text-transform: uppercase;
-    transform: translateY(5px);
+	transform: translateY(5px);
 	margin-right: 20px;
 }
 
@@ -80,16 +80,17 @@ h3 {
 }
 
 h4 {
-    font-family: 'Alata', sans-serif;
+	font-family: 'Alata', sans-serif;
 	color: rgba(255, 255, 255, 0.582);
-    font-size: 10px;
-    letter-spacing: 0.1em;
-    font-weight: normal;
+	font-size: 10px;
+	letter-spacing: 0.1em;
+	font-weight: normal;
 }
 
-.burger_button{
+.burger_button {
 	display: none;
 }
+
 .description p {
 	font-family: 'Alata', sans-serif;
 	font-size: 0.9em;
@@ -98,9 +99,9 @@ h4 {
 }
 
 .slogan p {
-    display: inline-block;
+	display: inline-block;
 	padding: 15px;
-    font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 70px;
 	position: relative;
 	margin-top: 250px;
@@ -108,12 +109,12 @@ h4 {
 	border: solid 2px white;
 }
 
-.nav_bar{
+.nav_bar {
 	margin-left: 163px;
 	padding-top: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 nav {
@@ -139,30 +140,31 @@ nav a:hover {
 }
 
 .description_block {
-    margin-top: 150px;
+	margin-top: 150px;
 	position: relative;
-    margin-left: 163px;
-    margin-right: 163px;
+	margin-left: 163px;
+	margin-right: 163px;
 }
 
 .description {
 	background-color: white;
 	padding-bottom: 0;
-    padding-top: 60px;
-    padding-left: 100px;
+	padding-top: 60px;
+	padding-left: 100px;
 	position: absolute;
 	bottom: -16px;
-    right: 0;
+	right: 0;
 }
 
-.mobile_gallery{
+.mobile_gallery {
 	display: none;
 }
+
 .gallery_header {
 	display: flex;
 	justify-content: space-between;
 	position: relative;
-    align-items: center;
+	align-items: center;
 	margin-left: 163px;
 	margin-right: 163px;
 	margin-top: 150px;
@@ -184,12 +186,12 @@ nav a:hover {
 	font-size: 1em;
 	font-weight: 100;
 	letter-spacing: 0.2em;
-    border-radius: 2px;
+	border-radius: 2px;
 }
 
-.gallery_button:hover{
-    background-color: black;
-    color: white;
+.gallery_button:hover {
+	background-color: black;
+	color: white;
 }
 
 .gallery {
@@ -238,46 +240,49 @@ nav a:hover {
 	background: transparent;
 }
 
-footer{
-    background-color: black;
-    height: 150px;
-    margin-top: 150px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+footer {
+	background-color: black;
+	height: 150px;
+	margin-top: 150px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
-.left_side_footer{
-    margin-left: 163px;
-}
-.left_side_footer h1{
-    font-size: 22px;
+.left_side_footer {
+	margin-left: 163px;
 }
 
-footer nav a{
-    font-size: 13px;
+.left_side_footer h1 {
+	font-size: 22px;
 }
-.socials a{
-    margin-right: 10px;
+
+footer nav a {
+	font-size: 13px;
+}
+
+.socials a {
+	margin-right: 10px;
 }
 
 .right_side_footer {
-    margin-right: 163px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+	margin-right: 163px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
 }
 
 /* For mobile phones: ------------------------------------------------------------------------------------------------------------ */
 
 @media only screen and (max-width: 1057px) {
-	
-	.description_block{
+
+	.description_block {
 		display: flex;
 		margin-top: 150px;
 		flex-wrap: wrap;
 		transition: 0.3s;
 	}
+
 	.description_block img {
 		position: relative;
 		margin-left: auto;
@@ -285,76 +290,88 @@ footer nav a{
 		max-width: 100%;
 	}
 
-	.description{
+	.description {
 		position: relative;
 		margin-left: auto;
 		margin-right: auto;
 		padding: 0 0 0 0;
 		text-align: center;
 	}
-	.topnav h1{
+
+	.topnav h1 {
 		margin-top: 0;
 		display: none;
 	}
-	#myLinks{
+
+	#myLinks {
 		display: none;
 	}
-	.slogan{
+
+	.slogan {
 		margin-right: 18.6%;
 	}
-	.slogan p{
+
+	.slogan p {
 		transition: 0.3s;
 	}
-	.gallery h3{
+
+	.gallery h3 {
 		font-size: 2.5vw;
 	}
-	.gallery{
+
+	.gallery {
 		grid: auto / repeat(3, 1fr);
 	}
 
 }
+
 @media only screen and (min-width: 875px) {
 
-	#myLinks ul{
+	#myLinks ul {
 		display: none;
 	}
-	.gallery h3{
+
+	.gallery h3 {
 		font-size: 2.5vw;
 	}
 
 }
+
 @media only screen and (max-width: 875px) {
 	.mobile-container {
 		max-width: 875px;
 		height: 20px;
 		color: white;
 		border-radius: 10px;
-	  }
-	  nav{
-		  display: none;
-	  }
-	  
-	  .topnav {
+	}
+
+	nav {
+		display: none;
+	}
+
+	.topnav {
 		background-color: black;
 		position: relative;
 		height: 0px;
-	  }
-	  
-	  .topnav #myLinks {
+	}
+
+	.topnav #myLinks {
 		display: none;
-	  }
-	  .topnav h1{
+	}
+
+	.topnav h1 {
 		margin-top: 0;
 		display: block;
 	}
 
-	  .topnav a h1{
-		  text-transform: lowercase;
-		  margin-top: 36px;
-		  margin-left: 24px;
-		  font-size: 23px;
-	  }
-	  .topnav a {
+	.topnav a h1 {
+		text-transform: lowercase;
+		margin-top: 36px;
+		margin-left: 24px;
+		font-size: 23px;
+	}
+
+	.topnav a {
 		color: white;
 		padding: 14px 16px;
 		text-decoration: none;
@@ -362,65 +379,76 @@ footer nav a{
 		background-color: transparent;
 		font-size: 30px;
 		display: flex;
-	  }
-	  #myLinks h1{
-		  margin-left: 40px;
-		  margin-top: 60px;
-		  font-size: 23px;
-	  }
-	  #myLinks li{
-		  list-style-type: none;
-		  font-size: 20px;
-	  }
-	  #myLinks ul{
+	}
+
+	#myLinks h1 {
+		margin-left: 40px;
+		margin-top: 60px;
+		font-size: 23px;
+	}
+
+	#myLinks li {
+		list-style-type: none;
+		font-size: 20px;
+	}
+
+	#myLinks ul {
 		margin-left: -20px;
 		margin-top: 100px;
-	  }
-	  #myLinks{
-		  text-decoration: none;
-		  background-color: black;
-		  width: 374px;
-		  height: 640px;
-		  position: absolute;
-		  top: -10px;
-		  z-index: 1;
-		  vertical-align: baseline;
-		  font-family: 'Josefin Sans', sans-serif;
-		  transition: 0.3s;
+	}
 
-	  }
-	  #myLinks a:hover{
-		  text-decoration: underline white;
-	  }
-	  .topnav a.icon {
+	#myLinks {
+		text-decoration: none;
+		background-color: black;
+		width: 374px;
+		height: 640px;
+		position: absolute;
+		top: -10px;
+		z-index: 1;
+		vertical-align: baseline;
+		font-family: 'Josefin Sans', sans-serif;
+		transition: 0.3s;
+
+	}
+
+	#myLinks a:hover {
+		text-decoration: underline white;
+	}
+
+	.topnav a.icon {
 		background: none;
 		display: block;
 		position: absolute;
 		right: 0;
 		top: 12px;
 		z-index: 1;
-	  }
-	  
-	  .active {
+	}
+
+	.active {
 		background-color: black;
 		color: white;
 		transition: 0.3s;
-	  }
-	  .nav_bar h1{
-		  display: none;
-	  }
-	  .icon{
-		  margin-top: 25px;
-		  margin-right: 10px;
-	  }
-	  .slogan{
+	}
+
+	.nav_bar h1 {
+		display: none;
+	}
+
+	.icon {
+		margin-top: 25px;
+		margin-right: 10px;
+	}
+
+	.slogan {
 		margin-right: 18.6%;
 	}
-	  .slogan p{
+
+	.slogan p {
 		font-size: 5.9vw;
 		padding: 30px;
-	  }
-	  .gallery h3{
+	}
+
+	.gallery h3 {
 		font-size: 2.5vw;
 		margin-right: 10px;
 		margin-left: -15px;
@@ -430,7 +458,7 @@ footer nav a{
 
 @media only screen and (max-width: 745px) {
 
-	.gallery_button{
+	.gallery_button {
 		display: none;
 	}
 
@@ -438,71 +466,86 @@ footer nav a{
 
 @media only screen and (max-width: 714px) {
 
-	.gallery_header{
+	.gallery_header {
 		margin-right: 0;
 	}
+}
 
 @media only screen and (max-width: 700px) {
 
-	.description_block{
+	.description_block {
 		margin-top: 100px;
 		max-width: 700px;
 		margin-left: 20px;
 		margin-right: 20px;
 	}
-	.description_block img{
+
+	.description_block img {
 		display: flex;
 		min-width: 335px;
 	}
-	h2{
+
+	h2 {
 		font-size: 5.9vw;
 	}
-	.gallery_header{
+
+	.gallery_header {
 		width: 375px;
 	}
-	.description h2 br{
+
+	.description h2 br {
 		display: none;
 	}
-	.description br{
+
+	.description br {
 		display: none;
 	}
-	.slogan{
+
+	.slogan {
 		margin-right: 18.6%;
 		margin-left: 163px;
 	}
-	.slogan p{
-	  font-size: 5.9vw;
-	  padding: 30px;
-	  margin-left: 0;
-	  transition: 0.3s;
+
+	.slogan p {
+		font-size: 5.9vw;
+		padding: 30px;
+		margin-left: 0;
+		transition: 0.3s;
 	}
-	.gallery, .gallery_button{
+
+	.gallery,
+	.gallery_button {
 		display: none;
 	}
-	.mobile_gallery h3{
+
+	.mobile_gallery h3 {
 		font-size: 5.9vw;
 	}
-	.mobile_gallery{
+
+	.mobile_gallery {
 		display: grid;
 		grid-gap: 27px;
 		grid: auto / repeat(1, 1fr);
 		margin-left: 20px;
 		margin-right: 20px;
 		transition: 0.3s;
-	  }
-	  .mobile_gallery img{
+	}
+
+	.mobile_gallery img {
 		width: 335px;
-	  }
-	  .mobile_gallery h3 {
+	}
+
+	.mobile_gallery h3 {
 		position: absolute;
 		left: 30px;
 		bottom: -5px;
 		font-size: 25px;
 	}
+
 	.mobile_gallery a {
 		position: relative;
 	}
-	
+
 	.mobile_gallery img {
 		transition: opacity .3s ease;
 		object-fit: cover;
@@ -510,21 +553,22 @@ footer nav a{
 		height: 100%;
 		width: 100%;
 	}
-	
+
 	.mobile_gallery .background {
 		transition: opacity .3s ease;
 		background: linear-gradient(to bottom, transparent 30%, black);
 		position: absolute;
 		inset: 0;
 	}
+
 	.mobile_gallery a:hover img {
 		opacity: .3;
 	}
-	
+
 	.mobile_gallery a:hover h3 {
 		color: black;
 	}
-	
+
 	.mobile_gallery a:hover .background {
 		background: transparent;
 	}
@@ -532,49 +576,56 @@ footer nav a{
 
 @media only screen and (max-width: 375px) {
 
-	header{
+	header {
 		background: no-repeat url(./loopstudios-landing-page-main/loopstudios-landing-page-main/images/mobile/image-hero.jpg);
 		background-size: cover;
 	}
-	.nav_bar{
+
+	.nav_bar {
 		margin-left: 20px;
 	}
-	.slogan{
+
+	.slogan {
 		margin-left: 20px;
 		margin-right: 20px;
 	}
-	.slogan p{
+
+	.slogan p {
 		margin-left: 0;
 		margin-top: 228px;
 		margin-right: 0;
 		font-size: 39px;
 		padding: 30px;
 	}
-	nav{
+
+	nav {
 		display: none;
 	}
+
 	.mobile-container {
 		max-width: 374px;
 		color: white;
 		border-radius: 10px;
-	  }
-	  
-	  .topnav {
+	}
+
+	.topnav {
 		background-color: black;
 		position: relative;
 		height: 0px;
-	  }
-	  
-	  .topnav #myLinks {
+	}
+
+	.topnav #myLinks {
 		display: none;
-	  }
-	  .topnav a h1{
-		  text-transform: lowercase;
-		  margin-top: 36px;
-		  margin-left: 24px;
-		  font-size: 23px;
-	  }
-	  .topnav a {
+	}
+
+	.topnav a h1 {
+		text-transform: lowercase;
+		margin-top: 36px;
+		margin-left: 24px;
+		font-size: 23px;
+	}
+
+	.topnav a {
 		color: white;
 		padding: 14px 16px;
 		text-decoration: none;
@@ -582,92 +633,108 @@ footer nav a{
 		background-color: transparent;
 		font-size: 30px;
 		display: flex;
-	  }
-	  #myLinks h1{
-		  margin-left: 40px;
-		  margin-top: 60px;
-		  font-size: 23px;
-	  }
-	  #myLinks li{
-		  list-style-type: none;
-		  font-size: 20px;
-	  }
-	  #myLinks ul{
+	}
+
+	#myLinks h1 {
+		margin-left: 40px;
+		margin-top: 60px;
+		font-size: 23px;
+	}
+
+	#myLinks li {
+		list-style-type: none;
+		font-size: 20px;
+	}
+
+	#myLinks ul {
 		margin-left: -20px;
 		margin-top: 100px;
-	  }
-	  #myLinks{
-		  text-decoration: none;
-		  background-color: black;
-		  width: 374px;
-		  height: 640px;
-		  position: absolute;
-		  top: -10px;
-		  z-index: 1;
-		  vertical-align: baseline;
-		  font-family: 'Josefin Sans', sans-serif;
+	}
 
-	  }
-	  #myLinks a:hover{
-		  text-decoration: underline white;
-	  }
-	  .topnav a.icon {
+	#myLinks {
+		text-decoration: none;
+		background-color: black;
+		width: 374px;
+		height: 640px;
+		position: absolute;
+		top: -10px;
+		z-index: 1;
+		vertical-align: baseline;
+		font-family: 'Josefin Sans', sans-serif;
+
+	}
+
+	#myLinks a:hover {
+		text-decoration: underline white;
+	}
+
+	.topnav a.icon {
 		background: none;
 		display: block;
 		position: absolute;
 		right: 0;
 		top: 12px;
 		z-index: 1;
-	  }
-	  
-	  .active {
+	}
+
+	.active {
 		background-color: black;
 		color: white;
-	  }
-	  .nav_bar h1{
-		  display: none;
-	  }
-	  .icon{
-		  margin-top: 25px;
-		  margin-right: 10px;
-	  }
-	  .gallery{
-		  display: none;
-	  }
-	  .gallery_button{
-		  display: none;
-	  }
-	  .gallery_header{
-		  width: 375px;
-		  margin-left: 0px;
-		  margin-right: 20px;
-		  margin-bottom: 20px;
-		  text-align: center;
-		  font-size: 12px;
-	  }
-	  h2{
-		  width: 375px;
-	  }
-	  .mobile_gallery{
+	}
+
+	.nav_bar h1 {
+		display: none;
+	}
+
+	.icon {
+		margin-top: 25px;
+		margin-right: 10px;
+	}
+
+	.gallery {
+		display: none;
+	}
+
+	.gallery_button {
+		display: none;
+	}
+
+	.gallery_header {
+		width: 375px;
+		margin-left: 0px;
+		margin-right: 20px;
+		margin-bottom: 20px;
+		text-align: center;
+		font-size: 12px;
+	}
+
+	h2 {
+		width: 375px;
+	}
+
+	.mobile_gallery {
 		display: grid;
 		grid-gap: 27px;
 		grid: auto / repeat(1, 1fr);
 		margin-left: 20px;
 		margin-right: 20px;
-	  }
-	  .mobile_gallery img{
+	}
+
+	.mobile_gallery img {
 		width: 335px;
-	  }
-	  .mobile_gallery h3 {
+	}
+
+	.mobile_gallery h3 {
 		position: absolute;
 		left: 30px;
 		bottom: -5px;
 		font-size: 25px;
 	}
+
 	.mobile_gallery a {
 		position: relative;
 	}
-	
+
 	.mobile_gallery img {
 		transition: opacity .3s ease;
 		object-fit: cover;
@@ -675,21 +742,22 @@ footer nav a{
 		height: 100%;
 		width: 100%;
 	}
-	
+
 	.mobile_gallery .background {
 		transition: opacity .3s ease;
 		background: linear-gradient(to bottom, transparent 30%, black);
 		position: absolute;
 		inset: 0;
 	}
+
 	.mobile_gallery a:hover img {
 		opacity: .3;
 	}
-	
+
 	.mobile_gallery a:hover h3 {
 		color: black;
 	}
-	
+
 	.mobile_gallery a:hover .background {
 		background: transparent;
 	}
