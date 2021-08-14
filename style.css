@@ -297,7 +297,6 @@ footer nav a{
 	.mobile-container {
 		max-width: 875px;
 		height: 20px;
-		background-color: none;
 		color: white;
 		border-radius: 10px;
 	  }
@@ -361,7 +360,7 @@ footer nav a{
 
 	  }
 	  #myLinks a:hover{
-		  text-decoration: underline white 1px;
+		  text-decoration: underline white;
 	  }
 	  .topnav a.icon {
 		background: none;
@@ -449,7 +448,6 @@ footer nav a{
 	}
 	.mobile-container {
 		max-width: 374px;
-		background-color: none;
 		color: white;
 		border-radius: 10px;
 	  }
@@ -504,7 +502,7 @@ footer nav a{
 
 	  }
 	  #myLinks a:hover{
-		  text-decoration: underline white 1px;
+		  text-decoration: underline white;
 	  }
 	  .topnav a.icon {
 		background: none;
