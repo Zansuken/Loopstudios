@@ -7,8 +7,13 @@ body {
 }
 
 body::-webkit-scrollbar {
+;
+}
+
+#myLinks{
 	display: none;
 }
+
 
 header {
     background-size: cover;
@@ -250,7 +255,7 @@ footer nav a{
 		display: flex;
 		margin-top: 150px;
 		flex-wrap: wrap;
-		
+		transition: 0.3s;
 	}
 	.description_block img {
 		position: relative;
@@ -270,9 +275,24 @@ footer nav a{
 		margin-top: 0;
 		display: none;
 	}
+	#myLinks{
+		display: none;
+	}
+	.slogan{
+		margin-right: 18.6%;
+	}
+	.slogan p{
+		transition: 0.3s;
+	}
 
 }
+@media only screen and (min-width: 875px) {
 
+	#myLinks ul{
+		display: none;
+	}
+
+}
 @media only screen and (max-width: 875px) {
 	.mobile-container {
 		max-width: 875px;
@@ -337,6 +357,7 @@ footer nav a{
 		  z-index: 1;
 		  vertical-align: baseline;
 		  font-family: 'Josefin Sans', sans-serif;
+		  transition: 0.3s;
 
 	  }
 	  #myLinks a:hover{
@@ -354,6 +375,7 @@ footer nav a{
 	  .active {
 		background-color: black;
 		color: white;
+		transition: 0.3s;
 	  }
 	  .nav_bar h1{
 		  display: none;
@@ -361,6 +383,13 @@ footer nav a{
 	  .icon{
 		  margin-top: 25px;
 		  margin-right: 10px;
+	  }
+	  .slogan{
+		margin-right: 18.6%;
+	}
+	  .slogan p{
+		font-size: 5.9vw;
+		padding: 30px;
 	  }
 }
 
@@ -383,7 +412,16 @@ footer nav a{
 	.description br{
 		display: none;
 	}
-	
+	.slogan{
+		margin-right: 18.6%;
+		margin-left: 163px;
+	}
+	.slogan p{
+	  font-size: 5.9vw;
+	  padding: 30px;
+	  margin-left: 0;
+	  transition: 0.3s;
+	}	
 }
 
 @media only screen and (max-width: 375px) {
