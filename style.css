@@ -505,6 +505,14 @@ footer nav a {
 		flex-direction: column;
 		width: fit-content;
 	}
+	.cross {
+		position: absolute;
+		margin-top: 25px;
+    	margin-right: 10px;
+		right: 8px;
+		top: 10px;
+	}
+
 }
 
 @media only screen and (max-width: 745px) {
@@ -666,6 +674,14 @@ footer nav a {
 		flex-direction: column;
 		width: fit-content;
 	}
+	.cross {
+		position: absolute;
+		margin-top: 25px;
+    	margin-right: 10px;
+		right: 8px;
+		top: 10px;
+	}
+
 }
 
 @media only screen and (max-width: 375px) {
@@ -756,7 +772,7 @@ footer nav a {
 		height: 640px;
 		position: absolute;
 		top: -10px;
-		z-index: 1;
+		z-index: 2;
 		vertical-align: baseline;
 		font-family: 'Josefin Sans', sans-serif;
 
@@ -771,8 +787,16 @@ footer nav a {
 		display: block;
 		position: absolute;
 		right: 0;
-		top: 12px;
+		top: 9px;
 		z-index: 1;
+	}
+
+	.cross {
+		position: absolute;
+		margin-top: 25px;
+    	margin-right: 10px;
+		right: 8px;
+		top: 10px;
 	}
 
 	.active {
