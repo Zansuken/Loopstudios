@@ -128,6 +128,7 @@ nav a {
 	color: white;
 	text-decoration: none;
 	box-sizing: border-box;
+	border-bottom: solid 2px transparent;
 }
 
 nav a:hover {
@@ -445,7 +446,7 @@ footer nav a {
 
 	.slogan p {
 		font-size: 5.9vw;
-		padding: 30px;
+		/* padding: 30px; */
 	}
 
 	.gallery h3 {
@@ -535,21 +536,27 @@ footer nav a {
 	.description_block {
 		margin-top: 100px;
 		max-width: 700px;
-		margin-left: 20px;
-		margin-right: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-left: 0;
+		margin-right: 0;
 	}
 
 	.description_block img {
 		display: flex;
-		min-width: 335px;
+		/* min-width: 335px; */
 	}
 
 	h2 {
 		font-size: 5.9vw;
+		margin-right: 0;
 	}
 
 	.gallery_header {
-		width: 375px;
+		max-width: 375px;
+		display: flex;
+		justify-content: center;
+		margin: 150px 0 0 0;
 	}
 
 	.slogan {
@@ -559,7 +566,7 @@ footer nav a {
 
 	.slogan p {
 		font-size: 5.9vw;
-		padding: 30px;
+		/* padding: 30px; */
 		margin-left: 0;
 		transition: 0.3s;
 	}
@@ -696,12 +703,15 @@ footer nav a {
 	}
 
 	.nav_bar {
-		margin-left: 20px;
+		padding-left: 20px;
 	}
 
 	.slogan {
-		margin-left: 20px;
-		margin-right: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-left: 0;
+		margin-right: 0;
+		max-width: 100%;
 	}
 
 	.slogan p {
@@ -709,7 +719,7 @@ footer nav a {
 		margin-top: 228px;
 		margin-right: 0;
 		font-size: 39px;
-		padding: 30px;
+		/* padding: 30px; */
 	}
 
 	nav {
